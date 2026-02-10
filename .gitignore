@@ -1,0 +1,9 @@
+# Don't upload raw data or outputs
+data/*
+out/*
+
+# Keep instructions files if you add them
+!data/README.md
+
+# Mac junk
+.DS_Store
