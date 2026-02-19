@@ -1,9 +1,8 @@
-# Don't upload raw data or outputs
-data/*
-out/*
+/data/*
+!/data/README.md
+!/data/.gitkeep
 
-# Keep instructions files if you add them
-!data/README.md
+/out/*
+!/out/.gitkeep
 
-# Mac junk
-.DS_Store
+*.DS_Store
